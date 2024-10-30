@@ -1,0 +1,246 @@
+/*---------------------------------------------
+ * @package     Corona Update
+ * @author      ThemeLooks
+ * @copyright   2020 ThemeLooks
+ * @license     GPL-2.0-or-later
+----------------------------------------------*/
+
+.corona-widget {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #f9f9f9;
+    padding: 20px 0px;
+}
+.corona-widget li {
+    padding: 18px 0px !important;
+    border: 0px !important;
+    border-bottom: 1px solid #eaeaea !important;
+}
+.corona-widget li:last-child {
+    border-bottom: 0px !important;
+}
+.corona-widget li h3 {
+    font-weight: bold;
+}
+.corona-widget li span {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.corona-widget li span.cases{
+    color: #aaa;
+}
+.corona-widget li span.deaths{
+    color: #696969;
+}
+.corona-widget li span.recovered{
+    color: #8ACA2B;
+}
+.corona-shortcode-statistic {
+    text-align: center;
+}
+.corona-shortcode-statistic h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.corona-shortcode-statistic h5 {
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+}
+body {
+    position: relative;
+}
+.awareness-popup-wrapper {
+    position: fixed;
+    background: red;
+    width: 100%;
+    z-index: 10000000;
+    padding: 32px;
+    text-align: center;
+}
+.awareness-popup-wrapper.top {
+    top: 0;
+}
+.awareness-popup-wrapper.bottom {
+    bottom: 0;
+}
+.awareness-popup-wrapper .closebtn {
+    position: absolute;
+    right: 0;
+    background: #000;
+    border-radius: 53px;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    padding: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.awareness-popup-wrapper.top .closebtn {
+    top: 15px;
+    right: 15px;
+}
+.awareness-popup-wrapper.bottom .closebtn {
+    top: -15px;
+}
+.awareness-popup-wrapper h2 {
+    margin-top: 0px !important;
+}
+.awareness-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.awareness-image .awareness-single-image {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+@media (max-width: 767px) {
+    .awareness-image .awareness-single-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .awareness-image .awareness-single-image:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+.corona_country_statistic_widget h5  {
+    margin-bottom: 32px !important;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    font-size: 18px !important;
+}
+.corona_country_statistic_widget h5 img  {
+    width: 35px;
+    margin-right: 8px;
+}
+.corona-country-widget {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+.corona-country-widget li {
+    margin-bottom: 8px;
+    padding: 10px 10px;
+}
+.corona-country-widget li p {
+    margin-bottom: 6px !important;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.corona-country-widget li span {
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.country-cases{
+    background: #ffc825;
+    color: #fff;
+}
+.country-deaths{
+    background: #ff0000;
+    color: #fff;
+}
+.country-recovered{
+    background: #19c858;
+    color: #fff;
+}
+.country-critical{
+    background: #d1ecf1;
+    color: #0c5460;
+}
+.country-other{
+    background: #d1ecf1;
+    color: #0c5460;
+}
+.corona-country-widget-style-2 {
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px 4px rgba(195, 195, 195, 0.34);
+    color: #040059;
+    text-align: center;
+    padding: 25px 15px
+}
+.corona-country-widget-style-2 h3 img {
+    width: 21px;
+    vertical-align: inherit;
+}
+.corona-country-widget-style-2 h3{
+    text-transform: uppercase;
+    font-size: 18px !important;
+    margin-bottom: 22px !important;
+}
+.coronaupdate-ww-statistic-inner,
+.corona-country-widget-style-2 .country-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.corona-country-widget-style-2 .country-info span {
+    display: inline-block;
+    padding: 12px 14px;
+    font-size: 13px;
+}
+.corona-country-widget-style-2 .country-info .country-deaths {
+   margin: 0px 2px;
+}
+.corona-country-widget-style-2 .country-info span strong {
+    font-size: 16px;
+}
+.coronaupdate-ww-statistic {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.coronaupdate-ww-statistic .single-statistic {
+    text-align: center;
+    padding: 18px;
+    margin: 0px 4px;
+}
+.coronaupdate-ww-statistic .single-statistic span {
+    display: block;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.coronaupdate-ww-statistic .single-statistic span.title {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.coronaupdate-ww-statistic .single-statistic span.number {
+    font-size: 16px;
+}
+.coronaupdate-ww-statistic h3 {
+    margin-bottom: 50px !important;
+}
+#statistictable_filter input {
+    width: 160px;
+    border: 1px solid #eee;
+}
+#statistictable_filter {
+    margin-bottom: 20px;
+}
+#statistictable_length select {
+    width: auto !important;
+    border: 1px solid #eee;
+    padding: 4px;
+}
+.dataTables_paginate,
+.dataTables_info {
+    margin-top: 20px !important; 
+}
